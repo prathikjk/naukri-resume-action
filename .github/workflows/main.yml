@@ -20,6 +20,7 @@ jobs:
           username: ${{ secrets.NAUKRI_USERNAME }}
           password: ${{ secrets.NAUKRI_PASSWORD }}
           profile_id: ${{ secrets.NAUKRI_PROFILE_ID }}
+          resume_path: "Prathik_Pramod_Java_Backend_Developer.pdf"
           # Providing a string fallback forces an update flag even without a physical file
           profile_summary: "Experienced technical professional seeking backend engineering roles. Proficient in building microservices and optimizing system performance." 
           
